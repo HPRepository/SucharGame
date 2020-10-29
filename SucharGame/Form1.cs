@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Engine;
+using Engine.Player;
 
 namespace SucharGame
 {
@@ -15,6 +17,8 @@ namespace SucharGame
         public Form1()
         {
             InitializeComponent();
+
+            
         }
     }
 }

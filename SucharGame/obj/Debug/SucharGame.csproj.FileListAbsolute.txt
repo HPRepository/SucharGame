@@ -1,0 +1,12 @@
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\SucharGame.exe.config
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\SucharGame.exe
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\SucharGame.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.Properties.Resources.resources
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.exe
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\Engine.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\Engine.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.CopyComplete
