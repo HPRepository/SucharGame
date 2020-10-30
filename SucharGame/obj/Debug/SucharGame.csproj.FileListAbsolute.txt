@@ -10,3 +10,9 @@ C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGam
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\Engine.dll
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\Engine.pdb
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.CopyComplete
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\Interop.WMPLib.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.ResolveComReference.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.Form1.resources

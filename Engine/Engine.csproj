@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="StageEngine\" />
+    <Folder Include="AttackClass\ComboAttack\" />
   </ItemGroup>
 
 </Project>
