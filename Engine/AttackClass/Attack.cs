@@ -7,20 +7,26 @@ namespace Engine.AttackClass
     public abstract class Attack : IAttackDescription
     {
         protected string _NameOfAttack;
+        protected int _AttackHPValue;
+
+        public Attack()
+        {
+            SetName();
+            AttackHP();
+        }
+        public int AttackHPValue
+        {
+            get => _AttackHPValue;
+        }
         public string NameOfAttack
         {
             get => _NameOfAttack;
 
         }
-        public Attack() { }
-        public Attack(Players.Player player)
-        {
-            
-            _NameOfAttack = player.GetNameOfAttack(this);
+        protected abstract void SetName();
+        protected abstract void AttackHP();
 
-        }
 
-       
-        public abstract int AttackHP();
+        
     }
 }

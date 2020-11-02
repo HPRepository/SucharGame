@@ -14,12 +14,9 @@ namespace Engine.StageEngine
 
      
         // co z tymczasowym atakiem na 3xTury??
-        public void ChooseAttackStage(Attack regularAttackPlayerOne, Attack regularAttackPlayerTwo)
+        public void AddingAttackStage(Attack regularAttackPlayerOne, Attack regularAttackPlayerTwo)
         {
             // jak ma dzialac combo, czy atak ma byc wylowywany z playera, czy zewnetrznej funkcji
-
-            
-
 
 
 
@@ -31,19 +28,20 @@ namespace Engine.StageEngine
             this.PlayerTwo = playerTwo;
         }
 
-
         public void AddingRegularAttack(Attack regularAttackPlayer, List<Attack> regularAttackPlayerList)
         {
-            if(regularAttackPlayerList.Count >=3)
+            if (regularAttackPlayerList.Count >= 3)
             {
                 regularAttackPlayerList.RemoveAt(0);
                 regularAttackPlayerList.Add(regularAttackPlayer);
 
-            } else
+            }
+            else
             {
                 regularAttackPlayerList.Add(regularAttackPlayer);
             }
         }
+
 
     }
 }

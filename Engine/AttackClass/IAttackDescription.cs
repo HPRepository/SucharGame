@@ -6,7 +6,8 @@ namespace Engine.AttackClass
 {
     public interface IAttackDescription
     {
-        int AttackHP();
+       
+        int AttackHPValue { get; }
         string NameOfAttack { get;}
 
     }

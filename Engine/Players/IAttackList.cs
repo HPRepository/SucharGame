@@ -8,6 +8,6 @@ namespace Engine.Players
     public interface IAttackList
     {
         List<List<Attack>> TimelineOfEnemyAttacks {get; set;}
-        List<Attack> TegularAttackOfPlayer { get; set; }
+        List<Attack> RegularAttackOfPlayer { get; set; }
     }
 }
