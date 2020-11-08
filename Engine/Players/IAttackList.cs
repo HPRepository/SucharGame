@@ -7,7 +7,8 @@ namespace Engine.Players
 {
     public interface IAttackList
     {
-        List<List<Attack>> TimelineOfEnemyAttacks {get; set;}
-        List<Attack> RegularAttackOfPlayer { get; set; }
+        List<List<Attack>> TimelineOfEnemyAttacks {get;}
+        List<Attack> RegularAttackOfPlayer { get;}
+
     }
 }

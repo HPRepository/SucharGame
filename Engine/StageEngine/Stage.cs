@@ -10,9 +10,9 @@ namespace Engine.StageEngine
     {
         private Player PlayerOne;
         private Player PlayerTwo;
-        private int RoundIndexOfGame = 0;
+        RoundIndexOfGame MyRoundIndexOfGame;
 
-     
+
         // co z tymczasowym atakiem na 3xTury??
         public void AddingAttackStage(Attack regularAttackPlayerOne, Attack regularAttackPlayerTwo)
         {
@@ -21,11 +21,12 @@ namespace Engine.StageEngine
 
 
         }
-
+        
         public Stage(Player playerOne, Player playerTwo)
         {
             this.PlayerOne = playerOne;
             this.PlayerTwo = playerTwo;
+            this.MyRoundIndexOfGame = new RoundIndexOfGame();
         }
 
         public void AddingRegularAttack(Attack regularAttackPlayer, List<Attack> regularAttackPlayerList)
