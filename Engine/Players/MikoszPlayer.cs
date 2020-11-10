@@ -8,7 +8,8 @@ namespace Engine.Players
 {
     public class MikoszPlayer : Player 
     {
-        public MikoszPlayer(): base("The Mikosz", "Money, money, money.") { }
+        public MikoszPlayer() 
+            : base("The Mikosz", "Money, money, money.") { }
 
         public override Attack BasicAttack()
         {

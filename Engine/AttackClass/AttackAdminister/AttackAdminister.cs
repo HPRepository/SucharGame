@@ -7,7 +7,7 @@ using Engine.AttackClass.AttackAdminister.ComboAttackLists;
 
 namespace Engine.AttackClass.AttackAdminister
 {
-    public abstract class AttackAdminister
+    public class AttackAdminister
     {
 
         protected Player MainPlayer;
@@ -18,12 +18,13 @@ namespace Engine.AttackClass.AttackAdminister
         public MainPlayerRegularAttack ChooseMainPlayerRegularAttack;
 
 
-        public AttackAdminister(Player mainPlayer, Player playerAttacked, RoundIndexOfGame roundIndexOfGame, ComboAttackGenerator mainPlayerComboAttackGenerator)
+        public AttackAdminister(Player mainPlayer, Player playerAttacked, RoundIndexOfGame roundIndexOfGame)
         {
             this.MainPlayer = mainPlayer;
             this.PlayerAttacked = playerAttacked;
             MyRoundIndexOfGame = roundIndexOfGame;
-            this.MainPlayerComboAttackGenerator = mainPlayerComboAttackGenerator;
+            this.MainPlayerComboAttackGenerator = MainPlayer.GetComboAttackGenerator(PlayerAttacked, MyRoundIndexOfGame);
+                
 
         }
 
@@ -62,7 +63,7 @@ namespace Engine.AttackClass.AttackAdminister
         }
        protected void AddComboAttack()
         {
-            MainPlayerComboAttackGenerator.FindCombo();
+            if (MainPlayerComboAttackGenerator.FindCombo()) MainPlayer.RemoveRegularAttack();
         }
 
 

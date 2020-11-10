@@ -22,26 +22,38 @@ namespace Engine.AttackClass.AttackAdminister.ComboAttackLists
             this.PlayerAttacked = playerAttacked;
             MyRoundIndexOfGame = roundIndexOfGame;
 
+            MakeAttackList();
+            
+          
+
+        }
+
+        protected virtual void MakeAttackList()
+        {
             AttackList.Add(new ComboAttack(BBBAttack, typeof(BasicAttack), typeof(BasicAttack), typeof(BasicAttack)));
             AttackList.Add(new ComboAttack(TTSAttack, typeof(TemporaryAttack), typeof(TemporaryAttack), typeof(SpecialAttack)));
             AttackList.Add(new ComboAttack(BBSAttack, typeof(BasicAttack), typeof(BasicAttack), typeof(TemporaryAttack)));
             AttackList.Add(new ComboAttack(TSTAttack, typeof(TemporaryAttack), typeof(SpecialAttack), typeof(TemporaryAttack)));
             AttackList.Add(new ComboAttack(TTTAttack, typeof(TemporaryAttack), typeof(TemporaryAttack), typeof(TemporaryAttack)));
             AttackList.Add(new ComboAttack(BBTAttack, typeof(BasicAttack), typeof(BasicAttack), typeof(TemporaryAttack)));
-          
-
         }
-
-        public void FindCombo()
+        
+        public bool FindCombo()
         {
             foreach (ComboAttack x in AttackList)
             {
                 if (x.ComboSequence[0].IsAssignableFrom(MainPlayer.RegularAttackOfPlayer[0].GetType()) &&
                     x.ComboSequence[1].IsAssignableFrom(MainPlayer.RegularAttackOfPlayer[1].GetType()) &&
-                    x.ComboSequence[2].IsAssignableFrom(MainPlayer.RegularAttackOfPlayer[2].GetType())) x.AttackAction();
-
-                break;
+                    x.ComboSequence[2].IsAssignableFrom(MainPlayer.RegularAttackOfPlayer[2].GetType()))
+                { 
+                    x.AttackAction();
+                    return true;
+                
+                }
+                    
             }
+
+            return false;
         }
         protected virtual void BBBAttack()
         {

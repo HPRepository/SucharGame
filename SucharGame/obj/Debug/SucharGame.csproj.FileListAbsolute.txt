@@ -16,3 +16,5 @@ C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\Interop.W
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.csproj.ResolveComReference.cache
 C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.Form1.resources
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.Form2.resources
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\SucharGame\obj\Debug\SucharGame.Form3.resources

@@ -1,8 +1,10 @@
 ﻿using Engine.AttackClass;
+using Engine.AttackClass.AttackAdminister.ComboAttackLists;
 using System;
 using System.Collections.Generic;
+using Engine.AttackClass.AttackAdminister;
 using System.Text;
-
+using System.Data;
 
 namespace Engine.Players
 {
@@ -22,17 +24,25 @@ namespace Engine.Players
         private List<Attack> _RegularAttackOfPlayer;
         public List<Attack> RegularAttackOfPlayer { get; }
 
-       
 
         public Player(string playerName, string playerDescription)
         {
             this._PlayerName = playerName;
             this._PlayerDescription = playerDescription;
-
+            
             _RegularAttackOfPlayer = new List<Attack>();
             _TimelineOfEnemyAttacks = new List<List<Attack>>();
         }
-
+        
+        public virtual AttackAdminister InitializationAttackAdminister(Player playerAttacked, RoundIndexOfGame roundIndexOfGame)
+        {
+            
+            return new AttackAdminister(this, playerAttacked, roundIndexOfGame);
+        }
+        internal virtual ComboAttackGenerator GetComboAttackGenerator(Player playerAttacked, RoundIndexOfGame roundIndexOfGame)
+        {
+            return new ComboAttackGenerator(this, playerAttacked, roundIndexOfGame);
+        }
         public void AddRegularAttack(Attack regularAttack)
         {
             if (_RegularAttackOfPlayer.Count >= 3)

@@ -9,7 +9,8 @@ namespace Engine.Players
    public class SzopaPlayer :Player
     {
 
-        public SzopaPlayer() : base("The Szopa", "Nobody knows who she is. Rumors say that she is from Sosnowiec. Are you scared now?"){ }
+        public SzopaPlayer() 
+            : base("The Szopa", "Nobody knows who she is. Rumors say that she is from Sosnowiec. Are you scared now?"){ }
 
         public override Attack BasicAttack()
         {
