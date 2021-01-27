@@ -1,0 +1,13 @@
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\GameEngine.exe.config
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\GameEngine.exe
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\Engine.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\Engine.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\bin\Debug\Engine.dll.config
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.Properties.Resources.resources
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.csproj.CopyComplete
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.exe
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\GameEngine\obj\Debug\GameEngine.pdb

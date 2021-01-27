@@ -1,0 +1,12 @@
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\bin\Debug\netstandard2.0\Engine.deps.json
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\bin\Debug\netstandard2.0\Engine.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\bin\Debug\netstandard2.0\Engine.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.AssemblyInfo.cs
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine.csproj.CopyComplete

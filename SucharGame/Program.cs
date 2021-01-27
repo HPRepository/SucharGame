@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SucharGame
 {
     static class Program
@@ -16,7 +17,9 @@ namespace SucharGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            new GameEngine("SucharGame", 1280, 720).Play(new SucharGame.GUI.OpeningObject.OpeningStage(1280, 720), 30);
+
+            //Application.Run(new Form1());
         }
     }
 }

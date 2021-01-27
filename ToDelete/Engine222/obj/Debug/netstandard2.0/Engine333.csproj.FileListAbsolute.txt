@@ -1,0 +1,4 @@
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine333.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine333.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine333.AssemblyInfo.cs
+C:\Users\Dell\Documents\MyProgram\SucharGameFiles\Engine\obj\Debug\netstandard2.0\Engine333.csproj.CoreCompileInputs.cache
